@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(40, 40, 40);
+}
+
+.true-header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-main {
+  width: 98%;
+  height: 60px;
+  display: flex;
+  gap: 10px;
+  background-color: rgb(255, 165, 0);
+  border-radius: 20px;
+}
+
+/*LOGO - LEFT SIDE*/
+.header-main-logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 50px;
+  border-radius: 20px;
+}
+.header-main-logo img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+/*NAVIGATION BAR - CENTER*/
+.header-main-nav {
+  height: 100%;
+  flex: 6 1 250px;
+}
+.header-main-nav ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-main-nav ul li {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-main-nav ul:hover {
+  cursor: pointer;
+}
+.header-main-nav ul li:hover {
+  background-color: orange;
+}
+
+/*SOCIAL MEDIA - RIGHT-SIDE*/
+.header-main-sm {
+  width: 120px;
+  height: 100%;
+  flex: 1 1 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.header-main-sm-fb {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imgs/shopping-cart.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.container{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.container:hover {
+    background-color: orange;
+}
+
+
+.header-main-sm-ig {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imgs/user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
